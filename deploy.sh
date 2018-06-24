@@ -3,6 +3,7 @@
 HOST="34.243.242.180"
 EC2_USER="ec2-user"
 KEY_FILE="~/.ssh/devopstest.pem"
+IMAGE="~DOCKER_USER/dockercmd"
 
 mkdir ~/.ssh
 echo "$PKEY" >> $KEY_FILE
