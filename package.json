@@ -11,5 +11,9 @@
     "url": "ameerkabir2@gmail.com"
   },
   "author": "Ameer",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5"
+  }
 }

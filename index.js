@@ -1,1 +1,15 @@
-console.log('this is docker')
+const express = require('express')
+const app = express()
+const port = 8080
+
+    app.get('/', (req, res)=>{
+        res.send('hello form docker')
+    })
+    app.listen(port,()=>{
+        console.log('server is listen on '+  port)
+    })
+
+    
+
+
+
