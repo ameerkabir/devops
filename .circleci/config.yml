@@ -19,8 +19,8 @@ jobs:
           name: Docker login
           command: docker login -u $DOCKER_USER -p $DOCKER_PASS
       - run:
-          name: Docker push rtl image
-          command: docker push $DOCKER_USER/docercmd
+          name: Docker push image
+          command: docker push $DOCKER_USER/dockercmd
 workflows:
 version: 2
 build_and_deploy:
